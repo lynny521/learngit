@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/xiangqing.css">
+    <script src="js/iscroll-lite.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <a href="javascript:void(0)" class="back"><img src="images/left.png" alt=""/></a>
+    <h1>商品详情</h1>
+    <button>分享</button>
+</header>
+<div class="hide hide1"></div>
+<div class="main" id="wrapper">
+    <div id="scroller">
+        <img src="images/1.png" alt=""/>
+        <div class="detail">
+            <p></p>
+            <p></p>
+            <p>Carpi是当时意大利针织产业相当发达的地区。当时的意大利很像现在的中国，为全世界进行加工和生产制造。而正在意大利逐渐从防治中心转型为战略中心的过程中，年少的Marco Marchi对时尚产生了浓厚的兴趣，深深地被那些创意和美的艺术吸引。那时的他便选择用时装来表达自己的追求。于是在1995年，Marco Marchi和Vannis Marchi两兄弟成立了针织制衣工厂。
+            </p>
+            <p>Marco Marchi一向醉心于时装，从女性时装业开始，成立了针织制衣工厂并与知名品牌如Zara及Mango合作，生产针织产品。直至90年代中期在整个意大利纺织及成衣工业面临重大改变的时期，成立了空前的、创意的但不失原有风格的自家时装品牌——Liu Jo。
+            </p>
+            <p>品牌将目标顾客定位于勇于避免世俗、摈弃传统，穿出自己鲜明个性与性感气质的现代都市女性。根据不同场合需求，LIU·JO女郎时而呈现经典稳重的高雅气质，时而流露玲珑奔放的休闲风格。切入心思的个性设计、充满时尚气息的新潮风格、美轮美奂的精致剪裁、贴身舒适的穿着感受、恰到好处的细节拿捏……这一切，都加载于精细做工和严谨制衣的态度之上，为越来越多的LIU·JO贵宾送上一季季的心头所爱</p>
+            <p>Carpi是当时意大利针织产业相当发达的地区。当时的意大利很像现在的中国，为全世界进行加工和生产制造。而正在意大利逐渐从防治中心转型为战略中心的过程中，年少的Marco Marchi对时尚产生了浓厚的兴趣，深深地被那些创意和美的艺术吸引。那时的他便选择用时装来表达自己的追求。于是在1995年，Marco Marchi和Vannis Marchi两兄弟成立了针织制衣工厂。
+            </p>
+            <p>Marco Marchi一向醉心于时装，从女性时装业开始，成立了针织制衣工厂并与知名品牌如Zara及Mango合作，生产针织产品。直至90年代中期在整个意大利纺织及成衣工业面临重大改变的时期，成立了空前的、创意的但不失原有风格的自家时装品牌——Liu Jo。
+            </p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <a href="details.html">介绍</a>
+    <a href="xiangqing.html" class="active">详情</a>
+    <a href="#">实拍</a>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/xiangqing.js"></script>
+<script>
+    var myScroll;
+    function loaded() {
+        myScroll = new iScroll('wrapper');
+    }
+    document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    document.addEventListener('DOMContentLoaded', loaded, false);
+</script>
+</html>

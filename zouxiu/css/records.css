@@ -1,0 +1,53 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.main .moban{
+    padding: 1vh 3vw;
+    border-bottom: 1px solid #333;
+    height: 18vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.main .moban img:first-of-type{
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 20vw;
+    padding: 5px;
+    border: 1px solid #333;
+    min-width: 90px;
+    min-height: 90px;
+}
+.main .moban section{
+    float: left;
+    height: 100%;
+    width: 72vw;
+    margin-left: 2vw;
+    padding: 2vh 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    position: relative;
+}
+.main .moban section a{
+    color: #333;
+}
+.main .moban section p:last-of-type{
+    font-size: 0.6rem;
+    margin-top: 1vh;
+}
+.main .moban section p:last-of-type b{
+    margin-right: 2.2vw;
+}
+.main .moban section span{
+    position: absolute;
+    top: 10vh;
+    right: 8vw;
+    width: 12vw;
+    height: 5vh;
+    background: #E33268;
+    text-align: center;
+    line-height: 5vh;
+    border-radius: 10%;
+}

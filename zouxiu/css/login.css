@@ -1,0 +1,62 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    padding-top: 3vh;
+}
+.main p{
+    width: 100vw;
+    height: 15vh;
+    padding-top: 5vh;
+}
+.main p input{
+    width: 80vw;
+    height: 7vh;
+    border: 1px solid #333;
+    margin-left: 10vw;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1.2rem;
+    text-indent: 2em;
+}
+.main p:last-of-type *{
+    margin-top: 3vh;
+    float: left;
+    line-height: 4vw;
+}
+.main p:last-of-type input{
+    width: 4vw;
+    height: 4vw;
+    margin: 3vh 1.5vw 0 12vw;
+}
+.main p:last-of-type a{
+    color: #666;
+    text-decoration: underline;
+    margin-left: 2vw;
+}
+.main button{
+    width: 80vw;
+    background: #df235d;
+    height: 8vh;
+    margin: 8vh 0 0 10vw;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.main1 p:last-of-type input{
+    width: 80vw;
+    height: 7vh;
+    border: 1px solid #333;
+    margin-left: 10vw;
+    border-radius: 8px;
+}
+.main1 button{
+	margin-top: 5vh;
+}
+.main span{
+	display: block;
+	text-align: center;
+	color: red;
+	height: 3vh;
+}

@@ -1,0 +1,59 @@
+.myshow{
+    width: 100vw;
+    background: #f7f7f7;
+}
+.mes{
+    width: 100vw;
+    height: 40vh;
+    clear: both;
+    padding-top: 11vh;
+}
+.mes *{
+    float: left;
+}
+.mes img{
+    width: 24vw;
+    height: 24vw;
+    margin: 0 6vw 11vh;
+}
+.mes p{
+    width: 50vw;
+    padding-top: 2vh;
+    font-size: 1.6rem;
+}
+.mes p:last-of-type input{
+    border: none;
+    background: #e53067;
+    width: 20vw;
+    margin-right: 5vw;
+    height: 6vh;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.detail{
+    width: 90vw;
+    margin: 0 auto;
+    height: 34vh;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.detail li{
+    height: 8.5vh;
+    line-height: 8.5vh;
+    border-bottom: 1px solid #333;
+    padding-left: 4vw;
+}
+.detail li a{
+    float: left;
+    width: 70vw;
+    height: 100%;
+    font-size: 1.2rem;
+    color: #333;
+}
+.detail li img{
+    width: 6vw;
+    height: 6vw;
+    margin-top: 2vh;
+}

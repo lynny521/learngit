@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="fonts/iconfont.css"/>
+    <link rel="stylesheet" href="css/gwc.css"/>
+</head>
+<body>
+<!--头部-->
+<header>
+    <a href="javascript:void(0)" class="back"><img src="images/left.png" alt=""/></a>
+    <h1>购物车</h1>
+    <button>去结算</button>
+</header>
+<div class="hide hide1"></div>
+
+<div class="main">
+    <div class="cate hidden">
+        <h2>您的购物车空空~</h2>
+        <img src="images/12.gif" alt=""/>
+        <a href="#">去逛逛</a>
+    </div>
+    <div class="cate1" id="wrapper">
+        <div id="scroller">
+            <div class="num">
+                商品数量：<span>1</span>
+                应付金额（不含运费）：<b>￥ 199</b>
+            </div>
+            <div class="list clear hidden">
+                <article class="clear">
+                    <a href="#"><img src="images/13.gif" alt=""/></a>
+                    <section>
+                        <p>ESPRIT 气质V领玫红<br>T恤</p>
+                        <em class="btn"><img src="images/del.png" alt=""/></em>
+                        <p><span>单价：</span><b>￥199</b><strong>L</strong></p>
+                        <p>
+                            <b>数量：</b>
+                            <span class="red">-</span>
+                            <input class="inp" type="text"/>
+                            <span class="add">+</span>
+                        </p>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <a href="index.html" class="iconfont icon-shouyeshouye"><br>首页</a>
+    <a href="fenlei.html" class="iconfont icon-fenlei"><br>分类</a>
+    <a href="gwc.html" class="iconfont icon-gouwuche active gwc"><br>购物车<span>0</span></a>
+    <a href="myshow.html" class="iconfont icon-yonghu"><br>我的秀</a>
+    <a href="more.html" class="iconfont icon-gengduo"><br>更多</a>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/iscroll-lite.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/gwc.js"></script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>走秀网-更多</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="fonts/iconfont.css"/>
+    <link rel="stylesheet" href="css/more.css"/>
+</head>
+<body>
+<!--头部-->
+<header>
+    <a href="#"><img src="images/left.png" alt=""/></a>
+    <h1>更多</h1>
+</header>
+<div class="hide hide1"></div>
+
+
+<div class="main">
+    <ul class="list1">
+        <li><a href="#">常见问题</a><img src="images/right.png" alt=""/></li>
+        <li><a href="#">系统设置</a><img src="images/right.png" alt=""/></li>
+        <li><a href="#">软件更新</a><img src="images/right.png" alt=""/></li>
+        <li><a href="#">扫描二维码</a><img src="images/right.png" alt=""/></li>
+    </ul>
+    <ul class="list2">
+        <li><a href="#">我要提意见</a><img src="images/right.png" alt=""/></li>
+        <li><a href="#">关于</a><img src="images/right.png" alt=""/></li>
+    </ul>
+    <input class="btn" type="button" value="退出登录"/>
+</div>
+
+<!--底部-->
+<footer>
+    <a href="index.html" class="iconfont icon-shouyeshouye"><br>首页</a>
+    <a href="fenlei.html" class="iconfont icon-fenlei"><br>分类</a>
+    <a href="gwc.html" class="iconfont icon-gouwuche"><br>购物车</a>
+    <a href="myshow.html" class="iconfont icon-yonghu"><br>我的秀</a>
+    <a href="more.html" class="iconfont icon-gengduo active"><br>更多</a>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    touch.on(".btn","tap",function(){
+       if(window.confirm("您是否要退出登录？")){
+           localStorage.removeItem("mes");
+           sessionStorage.removeItem("mes");
+           location.href="index.html";
+       }
+    });
+</script>
+</html>

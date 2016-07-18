@@ -1,0 +1,125 @@
+
+.main{
+    width: 100vw;
+    background: #f7f7f7;
+    height: 100vh;
+}
+.main .cate h2{
+    padding: 8vh 0 4vh;
+    text-align: center;
+}
+.main .cate img{
+    display: block;
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto 8vh;
+}
+.main .cate a{
+    display: block;
+    width: 60vw;
+    height: 14vh;
+    line-height: 12vh;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    color: #fff;
+    background: #e83a6f;
+}
+.main .cate1 .num{
+    width: 100vw;
+    line-height: 44px;
+    height: 44px;
+    background: #333333;
+    color: #f7f7f7;
+    font-size: 4vw;
+    padding-left: 6vw;
+}
+.main .cate1 .num span{
+    margin-right: 3vw;
+}
+.clear{
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.cate1 .list article *{
+    float: left;
+}
+.cate1 .list article{
+    padding: 2vh 2vw;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 0 5px #333;
+}
+.cate1 .list article a img{
+    max-width: 100%;
+    min-width: 80px;
+    min-height: 80px;
+    width: 20vw;
+    margin-right: 2vw;
+}
+.cate1 .list article section{
+    max-width: 72vw;
+    min-width: 66vw;
+    width: 66vw;
+    height: 20vw;
+    min-height: 80px;
+}
+.cate1 .list article p:nth-of-type(1){
+    width: 50vw;
+    font-size: 1em;
+    line-height: 3vh;
+    height: 6vh;
+    margin-top: 6px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.cate1 .list article em{
+    width: 4vh;
+    display: inline-block;
+    height: 4vh;
+    border: none;
+    padding: 0;
+    background: #fff;
+    margin: 1vh 0 1vh 5vw;
+}
+.cate1 .list article em img{
+    width: 4vh;
+    height: 4vh;
+    min-height: 4vh;
+    min-width: 4vh;
+}
+.cate1 .list article p:nth-of-type(2){
+    width: 60vw;
+}
+.cate1 .list article p:nth-of-type(2) strong{
+    float: right;
+}
+.cate1 .list article  p:nth-of-type(3){
+    width: 64vw;
+    line-height: 3vh;
+}
+.cate1 .list article  p:nth-of-type(3) input{
+    height: 3vh;
+    width: 8vw;
+    min-height: 24px;
+    min-width: 24px;
+}
+.cate1 .list article  p:nth-of-type(3) span{
+    background: #a5a5a5;
+    display: inline-block;
+    height: 3vh;
+    min-width: 40px;
+    min-height: 26px;
+    width: 10vw;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 0 1vw;
+}
+

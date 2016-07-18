@@ -1,0 +1,17 @@
+.main{
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    background: #F7F7F7;
+}
+.main img{
+    max-width: 100%;
+    display: block;
+    height: 40vh;
+    margin: 0 auto;
+    min-width: 300px;
+    min-height: 240px;
+}
+.main p{
+    margin: 1vh 3vw;
+}
